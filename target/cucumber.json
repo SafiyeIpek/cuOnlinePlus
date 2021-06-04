@@ -1,0 +1,96 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-03T10:18:09.212Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4066000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cuOnlinePlus.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": "users-should-be-able-to-login;",
+        "after": [
+          {
+            "result": {
+              "duration": 234000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cuOnlinePlus.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1319000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.cuOnlinePlus.step_definitions.login_stepDefinitions.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6873000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user enters username, password and access key",
+            "match": {
+              "location": "com.cuOnlinePlus.step_definitions.login_stepDefinitions.the_user_enters_username_password_and_access_key()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user should be able to login",
+            "match": {
+              "location": "com.cuOnlinePlus.step_definitions.login_stepDefinitions.the_user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Users should be able to login",
+    "description": "",
+    "id": "users-should-be-able-to-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
